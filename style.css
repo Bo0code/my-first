@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header {
+    width: 100%;
+    background-color: #f0f0f0;
+    display: flex;
+    position: fixed;
+    padding: 10px 200px;
+    z-index: 999;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    color: #4a88f4;
+    text-decoration: none;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.navigation a {
+    text-decoration: none;
+    color: #4a88f4;
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-right: 30px;
+}
+.navigation a:hover {
+    color: blueviolet;
+}
+section {
+    padding: 100px 200px;
+}
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(https://media.gq-magazine.co.uk/photos/5d1398a32881cc8d3a0a83ba/16:9/w_1600,c_limit/Ed-Sheeran-03-GQ-25Jan17_Norman-Jean-Roy_b.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2 {
+    color: #4a88f4;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+.main p {
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 400;
+    padding-left: 10px;
+}
+.main h3 {
+    color: #4a88f4;
+    font-size: 2em;
+    font-weight: 550;
+}
+.main ul li  {
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 300;
+    margin-left: 10px;
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main ol li {
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 300;
+    padding-left: 10px;
+    list-style-type: none;
+    margin-top: 10px;
+margin-bottom: 10px;
+}
+.main-btn {
+    background-color: #4a88f4;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 350;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 5px 15px;
+    letter-spacing: 1px;
+    transition: 0.7s ease;
+    margin-bottom: 40px;
+    margin-left: 7px;
+}
+.main-btn:hover {
+    background-color: #1b4b9e;
+    transform: scale(1.1);
+}
+.social-icons a {
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 350;
+    margin-right: 10px;
+    padding-left: 5px;
+    transition: 0.7s ease;
+}
